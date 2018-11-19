@@ -1,0 +1,30 @@
+.registeredUsers{
+  font-size: 2.0em;
+  color:#000000;
+}
+
+.registeredUsers table{
+  border: 3px solid #ffff;
+}
+
+.registeredUsers table{
+width: 80%;
+}
+.registeredUsers th{
+background-color: #F4812A;
+}
+
+.registeredUsers th,td{
+height: 50px;
+text-align: center;
+padding: 15px;
+border-bottom: 2px solid #ffff;
+
+}
+
+.registeredUsers tr:nth-child(even) {
+  background-color: #E5DBC2;
+}
+.registeredUsers .hidden{
+    visibility: hidden;
+}

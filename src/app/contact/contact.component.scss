@@ -1,0 +1,57 @@
+.contact-container{
+  font-size: 2em;
+  margin: 5%;
+  border-radius: 5px;
+  padding: 20px;
+  color: #000;
+  background: url('../../assets/images/bckimg.jpg');
+  background-position: bottom;
+}
+.contact-header {
+      padding: 0 2% 0 5%;
+}
+
+.contact-header-title{
+  border-bottom: 5px solid #72C5FD;
+}
+.txt {
+  display: block;
+  margin-bottom: 2%;
+  padding: 1% 0 1% 0;
+  width:30%;
+  border: 1px solid #72C5FD;
+  box-sizing: border-box;
+}
+
+input[type=text],select {
+
+}
+
+input[type=submit] {
+    background-color: #72C5FD;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+textarea{
+  display:block;
+  margin-bottom: 2%;
+  width:25%;
+  border: 1px solid #72C5FD;
+  box-sizing: border-box;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.contactform{
+margin: 3% 0 0 5%;
+}
+.contactform-header{
+  padding-bottom:2%;
+}

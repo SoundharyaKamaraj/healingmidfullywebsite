@@ -1,0 +1,207 @@
+.home-page-container{
+  width:100%;
+}
+
+/*------- Home page Heading CSS------------*/
+.home-page-header{
+color:#0C0033;
+    min-height: 500px;
+}
+
+.home-page-header h1{
+  font-weight: lighter;
+    font-size: 5.5em;
+    text-align: center;
+    letter-spacing: 13px;
+    padding: 2% 20% 0 20%;
+    -webkit-margin-before: 0px!important;
+    -webkit-margin-after: 0px!important;
+    -webkit-margin-start: 0px!important;
+    -webkit-margin-end: 0px!important;
+}
+
+.home-page-heading{
+  min-height: 500px;
+background: url('../../assets/images/bckimg.jpg');
+background-repeat: no-repeat;
+background-size: 100% 71%;
+    background-attachment: fixed;
+justify-content: center;
+background-position: right -9px bottom 700px;
+}
+.home-page-heading p{
+      font-size: 2em;
+      font-weight: 600;
+      padding: 0 22% 0 22%;
+      letter-spacing: 15px;
+      text-align: center;
+      -webkit-margin-before: 0px!important;
+      -webkit-margin-after: 0px!important;
+      -webkit-margin-start: 0px!important;
+      -webkit-margin-end: 0px!important;
+}
+.bluebox {
+      /*border: solid 5px #C5E7FF;
+      border-color: #C5E7FF;
+      border-radius: 0 0 240px 50%/60px;
+      background-color: #C5E7FF;*/
+      height: 190px;
+      background: url('../../assets/images/curve.png');
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+}
+
+.bluebox p{
+  font-size: 1.8em;
+  font-weight: lighter;
+  text-align: center;
+  justify-content: center;
+    letter-spacing: 15px;
+  padding: 1.5% 22% 0 22%;
+  -webkit-margin-before: 0px!important;
+  -webkit-margin-after: 0px!important;
+  -webkit-margin-start: 0px!important;
+  -webkit-margin-end: 0px!important;
+  color:#0C0033;
+}
+
+/*------- Home page content CSS------------*/
+.home-page-content{
+  min-height: 100%;
+}
+
+.post-image-content-wrap{
+  margin: 1em;
+      padding: 4em 5em 1em 5em;
+}
+
+.post-featured-image {
+  float: left;
+width: 36%;
+/* text-align: left; */
+/* padding-right: 4%; */
+padding-left: 15%;
+}
+.post-featured-image  img{
+  width: 80%;
+  height:10%;
+}
+
+.entry-content h3{
+font-size: 1.6em;
+    letter-spacing: 0.2em;
+    font-weight:600;
+}
+
+.entry-content{
+width: 27%;
+    /* float: right; */
+    display: inline-block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 40px;
+    -webkit-margin-end: 40px;
+  }
+
+.entry-content li{
+  font-size: 1.4em;
+  letter-spacing: 0.2em;
+  font-weight: 600;
+}
+
+.fl-row-content-wrap{
+  border-bottom: 1px solid grey;
+}
+
+hr {
+width: 65%;
+margin-left: auto;
+margin-right: auto;
+background-color:grey;
+height:5px;
+}
+
+
+/*------- Home page About Ayla CSS------------*/
+
+.image-holder{
+      padding: 3% 0% 5% 23.5%;
+}
+.image-thumb{
+    width: 30em;
+height: 30em;
+/* display: inline-block; */
+border-radius: 50%;
+  background:url('../../assets/images/author.jpg');
+background-size: cover;
+background-position: center;
+/* padding-left: 20em; */
+float: left;
+}
+
+.about-healer{
+    height: 50vh;
+    width:100%
+}
+
+
+.about-description{
+  width: 38%;
+      display: inline-block;
+      padding-left: 13em;
+      padding-top: 3em;
+  }
+.about-description p{
+  font-weight: 600;
+      letter-spacing: 0.4em;
+      font-size: 1.5em;
+      text-align: center;
+  }
+
+/*----------Home page footer CSS------------------*/
+
+.about-home-description{
+  width: 41%;
+/* display: -webkit-inline-box; */
+padding-left: 45em;
+padding-top: 3em;
+  }
+
+  .about-home-description p,h3{
+    font-weight: 600;
+        letter-spacing: 0.4em;
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+.logo-img{
+      padding-left: 46%;
+    }
+
+.logo-img img{
+  width: 20%;
+}
+
+.footer-navigation ul{
+  list-style-type: none;
+margin: 0 0 2em 0;
+padding: 2% 30%;
+
+}
+
+.footer-navigation ul li{
+  font-weight: 600;
+    display: inline;
+    margin-right: 72px;
+    font-size: 1.8em;
+}
+
+.footer-navigation ul li a{
+  font-weight: 600;
+  color: #0C0033;
+  text-decoration: none;
+}
+
+.footer-nav-list{
+
+}

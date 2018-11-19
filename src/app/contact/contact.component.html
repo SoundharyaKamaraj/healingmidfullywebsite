@@ -1,0 +1,25 @@
+<div class="contact-container">
+<div class="contact-header">
+<div class="contact-header-title">
+<h2>Contact Us</h2>
+<p>Do you have comments, suggestions or questions? Please contact me, I would love to hear from you.</p>
+</div>
+</div>
+
+
+<div class="contactform">
+  <div class="contactform-header">
+     <span class="text-muted">Fields marked with an<em><span style="color:red;">*</span>are required</em></span>
+</div>
+<form>
+<label for="username">Name<span style="color:red;">*</span></label>
+<input type="text" class="txt" placeholder="Your Name" required [(ngModel)]="user.name" name="username" >
+<label for="email">Email<span style="color:red;">*</span></label>
+<input type="text" class="txt" placeholder="Your Email" required [(ngModel)]="user.email" name="email" >
+<label for="message">Message<span style="color:red;">*</span></label>
+<textarea rows="4" cols="50" name="message" [(ngModel)]="user.message">Enter text here...</textarea>
+<input type="submit" class="btn" [value]="btnText" (click)="storeUserData()">
+<p name="success">{{successText}}</p>
+</form>
+</div>
+</div>
