@@ -13,11 +13,6 @@ import {GalleryComponent} from './gallery/gallery.component';
 
 @NgModule({
 declarations:[
-  AppComponent,
-  HomeComponent,
-  AboutComponent,
-  ContactComponent,
-  GalleryComponent
 ],
 imports:[
   BrowserModule,
