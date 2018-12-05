@@ -28,17 +28,15 @@ justify-content: center;
 background-position: right -9px bottom 700px;
 
 /* min-height: 335px; */
-background: url('../../assets/images/bckimg.jpg') no-repeat;
-background-size: contain;
-/* background-attachment: fixed; */
-/* justify-content: center; */
-/* background-position: right -9px bottom 700px; */
-width: 100vw;
-background-size: 1268px 303px;
+background: url('../../assets/images/bckimg.jpg') no-repeat center center fixed #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 /* display: inline-table; */
 }
 .home-page-heading p{
-      font-size: 2em;
+      font-size: 1.5em;
       padding: 0 22% 0 22%;
       letter-spacing: 1px;
       text-align: center;
@@ -77,38 +75,53 @@ background-size: 1268px 303px;
 }
 
 .post-image-content-wrap{
+  width: 100%;
+      padding-top: 2%;
+      padding-bottom: 2%;
+
 }
 
 .post-featured-image {
   float: left;
-    width: 40%;
-    padding: 5% 0 2% 10%;
+    width: 37%;
       margin-block-start: 0 !important;
       margin-block-end: 0!important;
       margin-inline-start: 0!important;
       margin-inline-end: 0!important;
 }
 .post-featured-image  img{
-  width: 100%;
-height: 10%;
+  width: 80%;
+      padding-left: 20%;
 }
 
 .entry-content h3{
   font-size: 1.5em;
       letter-spacing: 0.1em;
       font-weight: 600;
+      margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 .entry-content{
-  width: 40%;
+  width: 45%;
       display: inline-block;
-        padding: 3% 0 0 5%;
+      padding-left: 8%;
   }
 
 .entry-content li{
   font-size: 1.2em;
 letter-spacing: 0.1em;
 font-weight: 400;
+}
+
+.entry-content ul{
+  margin-block-start: 0em;
+margin-block-end: 0em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+padding-inline-start: 0px;
 }
 
 .fl-row-content-wrap{
@@ -198,5 +211,233 @@ padding: 2% 15%;
 }
 
 .footer-nav-list{
+
+}
+
+/*--------------Mobile page CSS--------------------*/
+
+@media screen and (max-width: 600px) {
+  .home-page-header{
+  color:#0C0033;
+  }
+
+  .home-page-header h1{
+    font-weight: lighter;
+      font-size: 2em;
+      text-align: center;
+      letter-spacing: 8px;
+      padding: 2% 2% 0 2%;
+      -webkit-margin-before: 0px !important;
+      -webkit-margin-after: 0px !important;
+      -webkit-margin-start: 0px !important;
+      -webkit-margin-end: 0px !important;
+  }
+
+  .home-page-heading{
+
+  background: url('../../assets/images/bckimg.jpg')  no-repeat center center fixed #000;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+
+  }
+  .home-page-heading p{
+        font-size: 1.4em;
+        padding: 0 2% 0 2%;
+        letter-spacing: 1px;
+        text-align: center;
+        -webkit-margin-before: 0px!important;
+        -webkit-margin-after: 0px!important;
+        -webkit-margin-start: 0px!important;
+        -webkit-margin-end: 0px!important;
+  }
+  .bluebox {
+        /*border: solid 5px #C5E7FF;
+        border-color: #C5E7FF;
+        border-radius: 0 0 240px 50%/60px;
+        background-color: #C5E7FF;*/
+        background: url('../../assets/images/curve.png')no-repeat center center fixed #000;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+  }
+
+  .bluebox p{
+    font-size: 1em;
+    font-weight: lighter;
+    text-align: center;
+    justify-content: center;
+      letter-spacing: 2px;
+        padding: 1% 2% 0 2%;
+    -webkit-margin-before: 0px!important;
+    -webkit-margin-after: 0px!important;
+    -webkit-margin-start: 0px!important;
+    -webkit-margin-end: 0px!important;
+    color:#0C0033;
+  }
+
+  .post-image-content-wrap{
+    width: 100%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+
+  }
+
+  .post-featured-image {
+    float: left;
+      width: 37%;
+        margin-block-start: 0 !important;
+        margin-block-end: 0!important;
+        margin-inline-start: 0!important;
+        margin-inline-end: 0!important;
+  }
+  .post-featured-image  img{
+    width: 80%;
+        padding-left: 20%;
+  }
+
+  .entry-content h3{
+    font-size: 1.5em;
+        letter-spacing: 0.1em;
+        font-weight: 600;
+        margin-block-start: 0em;
+      margin-block-end: 0em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+  }
+
+  .entry-content{
+    width: 45%;
+        display: inline-block;
+        padding-left: 8%;
+    }
+
+  .entry-content li{
+    font-size: 1.2em;
+  letter-spacing: 0.1em;
+  font-weight: 400;
+  }
+
+  .entry-content ul{
+    margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+  }
+
+  .fl-row-content-wrap{
+    border-bottom: 1px solid grey;
+  }
+
+  hr {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:grey;
+  height:5px;
+  }
+
+
+  /*------- Home page About Ayla CSS------------*/
+
+  .image-holder{
+
+  }
+  .image-thumb{
+    width: 20em;
+    height: 20em;
+    border-radius: 50%;
+    background:url('../../assets/images/author.jpg');
+  background-size: cover;
+  background-position: center;
+  /* padding-left: 20em; */
+  float: left;
+  }
+
+  .about-healer{
+  }
+
+
+  .about-description{
+    display: inline-block;
+    width: 90%;
+    padding-left: 1em;
+    padding-top: 2em;
+    }
+  .about-description p{
+    font-weight: 400;
+  font-size: 1.2em;
+    }
+    .post-image-content-wrap{
+      width: 100%;
+
+    }
+
+    .post-featured-image {
+        width: 70%;
+          margin-block-start: 0 !important;
+          margin-block-end: 0!important;
+          margin-inline-start: 0!important;
+          margin-inline-end: 0!important;
+    }
+    .post-featured-image  img{
+      width: 100%;
+    }
+
+    .entry-content h3{
+      font-size: 1em;
+          letter-spacing: 0.1em;
+          font-weight: 600;
+          margin-block-start: 0em;
+        margin-block-end: 0em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+
+    .entry-content{
+            width: 83%;
+                padding-left: 8%;
+
+      }
+
+    .entry-content li{
+      font-size: 1em;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    }
+
+    .entry-content ul{
+      margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+    }
+
+    .fl-row-content-wrap{
+      border-bottom: 1px solid grey;
+    }
+
+    hr {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:grey;
+    height:5px;
+    }
+
+.about-home-description{
+  display: inline-block;
+  width: 90%;
+  padding-left: 1em;
+  padding-top: 2em;
+  font-size: 0.5em;
+}
+.footer-nav-list{
+  display: none;
+}
 
 }
