@@ -15,7 +15,7 @@ body {
 }
 
 .page-logo-head img {
-  width:40%;
+      width: 54%;
   height: auto;
   padding-left: 10%;
 }
@@ -32,4 +32,31 @@ padding-top: 2%;;
     flex-direction:row;
     border-bottom: 1px solid grey;
         padding-bottom: 0.5%;
+}
+
+
+
+
+
+@media screen and (max-width: 600px) {
+
+.page-logo-head {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 40%;
+}
+
+.logo-img img{
+  width: 15%;
+  padding-left: 40%;
+  padding-right: 45%;
+}
+
+.page-logo-head img {
+      width: 100%;
+  height: auto;
+  padding-left: 10%;
+}
+
+
 }
